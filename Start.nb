@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     27306,        708]
-NotebookOptionsPosition[     24763,        639]
-NotebookOutlinePosition[     25119,        655]
-CellTagsIndexPosition[     25076,        652]
+NotebookDataLength[     27355,        710]
+NotebookOptionsPosition[     24812,        641]
+NotebookOutlinePosition[     25168,        657]
+CellTagsIndexPosition[     25125,        654]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -630,9 +630,11 @@ Cell[BoxData[{
        RowBox[{
         RowBox[{"2", ";;"}], ",", "All"}], "}"}], "}"}]}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
- RowBox[{"forTeX", "//", "TableForm"}]}], "Input",
- CellChangeTimes->{{3.729679219942438*^9, 
-  3.7296792266879*^9}},ExpressionUUID->"c4fdc117-fe8d-497c-a230-45027167e6c9"]
+ RowBox[{"forTeX", "//", "TeXForm"}]}], "Input",
+ CellChangeTimes->{{3.729679219942438*^9, 3.7296792266879*^9}, {
+  3.736525659163989*^9, 
+  3.736525660906591*^9}},ExpressionUUID->"c4fdc117-fe8d-497c-a230-\
+45027167e6c9"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -705,7 +707,7 @@ Cell[19051, 482, 4391, 112, 346, "Input", "ExpressionUUID" -> \
 Cell[CellGroupData[{
 Cell[23467, 598, 767, 21, 35, "Subsubsection", "ExpressionUUID" -> \
 "88a55ebe-71f7-4a32-8d49-0536ff50263b"],
-Cell[24237, 621, 486, 13, 82, "Input", "ExpressionUUID" -> \
+Cell[24237, 621, 535, 15, 82, "Input", "ExpressionUUID" -> \
 "c4fdc117-fe8d-497c-a230-45027167e6c9"]
 }, Open  ]]
 }, Open  ]]
