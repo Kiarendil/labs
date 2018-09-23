@@ -224,9 +224,15 @@
 
 Где $ \sigma_{l_j} = \sigma_ш = 0,1 \;мм $ --- погрешность измерения каждого "<кусочка"> равна погрешность штангенциркуля. 
 
- \begin{equation}\label{}
- \ln N = \ln N_0 - \mu l
- \end{equation}
+ТАБЛИЦЫ
+
+Из формулы \eqref{mu} выведем удобную для фитирования полученных данных линейной функцией формулу 
+
+ \begin{equation}\label{yotx}
+\ln N = \ln N_0 - \mu l
+\end{equation}
+
+Построим для каждого образца график вида $ y = b - ax $, результаты фита сведем в таблицу.
  
   	\begin{figure}[h!]
  	\label{graf_pb}
@@ -251,6 +257,25 @@
 	\includegraphics[scale=0.47]{d.pdf}
 	\caption{Поглощение \ga-лучей в \textbf{пробке (древесине)}}
 \end{figure}
+
+ \begin{table}[h!]
+	\caption{Результаты фита $ y = b - ax $}
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			Образец & $ b = \ln N_0 $ &  $ a = \mu, \; см^{-1} $ & $ \chi^2 $  \\
+			\hline
+			Свинец &	$ 9,25	\pm	0,02 $ &	$ 0,969	\pm	0,014 $ & \\
+			Железо &	$ 9,29	\pm	0,02 $ &	$ 0,528	\pm	0,006 $ & \\
+			Алюминий	& $ 9,38	\pm	0,04 $ &	$ 0,205	\pm	0,005 $ & \\
+			Пробка	&	$ 9,39	\pm	0,03 $ &	$ 0,0095	\pm	0,0004 $ & \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\label{table_5}
+\end{table}
+
+
 	
 	
 \end{document}
