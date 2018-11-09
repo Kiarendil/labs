@@ -120,20 +120,194 @@
 	\sigma_{N_ч} = N_ч \x \dfrac{\sqrt{N'_ч}}{N'_ч} = \dfrac{\sqrt{N'_ч}}{t}
 	\end{equation}
 	
-	Во всех измерениях $ t $ в диапазоне 600 -- 700 секунд. Отложим по оси абсцисс энергию полученных экспериментальных точек, а по оси ординат -- число частиц за секунду (рис. )
+	Во всех измерениях $ t $ в диапазоне 600 -- 700 секунд. Отложим по оси абсцисс энергию полученных экспериментальных точек, а по оси ординат -- число частиц за секунду (рис. 1 -- 6).
 	
-	\begin{figure}[h!]
+	С помощью ПО компьютера экспериментальной установки получим значения пиков полного поглощения и их ширины. По формуле \eqref{Ri = dE/E} подсчитаем для них разрешающую способность спектрометра. Результаты сведем в таблицу.
+	
+	\begin{figure}[H]
 		\label{graf_bg}
 		\includegraphics[scale=0.5]{bg.pdf}
 		\caption{Измерение фона}
 	\end{figure} 	
 	
-	С помощью ПО компьютера экспериментальной установки получим значения пиков полного поглощения и их ширины. По формуле \eqref{Ri = dE/E} подсчитаем для них разрешающую спектрометра. Результаты сведем в таблицу.
-	
-	
-	
+	\begin{figure}[H]
+		\label{graf_na}
+		\includegraphics[scale=0.5]{na.pdf}
+		\caption{Измерение спектра источника натрия $ \mathrm{^{22}Na} $}
+	\end{figure} 
 
+\begin{figure}[H]
+	\label{graf_co}
+	\includegraphics[scale=0.5]{co.pdf}
+	\caption{Измерение спектра источника кобальта $ \mathrm{^{60}Co} $}
+\end{figure} 
+
+	\begin{figure}[H]
+	\label{graf_cs}
+	\includegraphics[scale=0.5]{cs.pdf}
+	\caption{Измерение спектра источника цезия $ \mathrm{^{137}Cs} $}
+\end{figure} 
+
+\begin{figure}[H]
+	\label{graf_cs2}
+	\includegraphics[scale=0.5]{cs2.pdf}
+	\caption{Измерение на второй установке спектра источника цезия $ \mathrm{^{137}Cs} $} 
+\end{figure} 
+
+\begin{figure}[H]
+	\label{graf_am}
+	\includegraphics[scale=0.5]{am.pdf}
+	\caption{Измерение спектра источника америция $ \mathrm{^{241}Am} $}
+\end{figure} 
+
+\begin{figure}[H]
+	\label{graf_eu}
+	\includegraphics[scale=0.5]{eu.pdf}
+	\caption{Измерение спектра источника европия $ \mathrm{^{152}Eu} $}
+\end{figure} 
 	
-	\section{Вывод }
+	
+	\begin{table}[H]
+		\caption{Пики прямого поглощения}
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline 
+				Образец & $N_i $ & $ \Delta N_i $ & $ E_i, $ кэВ & $ \Delta E,_i $ кэВ  & $ R_i $ \\ 
+				\hline 
+				Натрий $ \mathrm{^{22}Na} $ & 597.48 & 42 & 511.4 & 40.2 & 0.079 \\
+				Натрий $ \mathrm{^{22}Na} $& 1395.23 & 76.6 & 1275.1 & 73.4 & 0.058 \\
+				Цезий $ \mathrm{^{137}Cs} $ & 754.22 & 47.4 & 661.5 & 45.3 & 0.069 \\
+				Кобальт $ \mathrm{^{60}Co} $ & 1286.1 & 65.1 & 1170.6 & 62.3 & 0.053 \\
+				Кобальт $ \mathrm{^{60}Co} $ & 1450.59 & 73.3 & 1328.1 & 70.2 & 0.053 \\
+				Америций $ \mathrm{^{241}Am} $& 135.57 & 9.5 & 69.2 & 9 & 0.131 \\
+				Европий	 $ \mathrm{^{152}Eu} $& 199.01 & 12.3 & 130 & 11.7 & 0.09 \\
+				Европий	 $ \mathrm{^{152}Eu} $& 421.7 & 30.4 & 343.2 & 29.1 & 0.085 \\
+				\hline 
+			\end{tabular} 
+		\end{center}
+		\label{res}
+	\end{table}
+
+	Экспериментально оценим пики комптоновского рассеяния и сравним с теоретическим расчетом. Результаты сведем в таблицу. Построим график зависимости теоретического расчета от экспериментального. 
+	
+	\begin{figure}[H]
+		\label{graf_com}
+		\includegraphics[scale=0.5]{comp.pdf}
+		\caption{Зависимости теоретического расчета края комптоновского спектра от экспериментального}
+	\end{figure} 
+	
+		Найдем параметры фита: 
+	
+	\begin{table}[H]
+		\caption{Комптновские спектры}
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|}
+				\hline 
+				Образец & $ E_i, $ кэВ  & $ E_{c\; экс}, $ кэВ  & $ E_{c \; теор}, $ кэВ \\
+				\hline 
+		Натрий $ \mathrm{^{22}Na} $ & 511.4 & 320.5 & 341. \\
+		Цезий $ \mathrm{^{137}Cs} $ & 661.5 & 482.2 & 477.2 \\
+		Кобальт $ \mathrm{^{60}Co} $ & 1270.6 & 973.3 & 960.9 \\
+			Натрий $ \mathrm{^{22}Na} $& 1275.1 & 1075 & 1062.3 \\
+				\hline 
+			\end{tabular} 
+		\end{center}
+		\label{compt}
+	\end{table}
+
+\begin{table}[H]
+	\caption{Фит рис. 8 функцией $ y = ax + b $}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+		 & \text{Estimate} & \text{Standard Error} \\
+		 \hline
+		b & 23.43 & 12.36 \\
+		a & 0.96 & 0.02 \\
+			\hline 
+		\end{tabular} 
+	\end{center}
+	\label{compt_fit}
+\end{table}
+
+	Видим, что коэф. при $ x \simeq 1 $, т.е. результат согласуется с теорией. 
+	
+	Для проверки соотношения \eqref{Ri = c/E} построим график зависимости $ R^2_i = f(\frac{1}{E_i}) $ для величин из таблицы 1. 
+	
+	\begin{figure}[H]
+		\label{graf_r2}
+		\includegraphics[scale=0.5]{r^2.pdf}
+		\caption{Проверка формулы $ R = \dfrac{\mathrm{const}}{E} $}
+	\end{figure} 
+
+Результаты фита сведем в таблицу:
+
+\begin{table}[H]
+	\caption{Фит рис. 9 функцией $ y = ax + b $}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			& \text{Estimate} & \text{Standard Error} \\
+			\hline
+			b & 2.74367 & 0.40169 \\
+			a & 0.097081 & 0.00673854 \\
+			\hline 
+		\end{tabular} 
+	\end{center}
+	\label{r2_fit}
+\end{table}
+
+Видно, что точки вполне хорошо описывают прямую.
+
+Теперь найдем пики обратного рассеяния. 
+
+\begin{table}[H]
+	\caption{Комптновские спектры}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline 
+			Образец & $ E_i, $ кэВ  & $ E_{обр}, $ кэВ  \\
+			\hline 
+			Натрий $ \mathrm{^{22}Na} $  & 511.4 & 190 \\
+			Цезий $ \mathrm{^{137}Cs} $ & 661.5 & 205 \\
+			Кобальт $ \mathrm{^{60}Co} $ & 1328.1 & 230 \\
+			Европий	 $ \mathrm{^{152}Eu} $ & 129.973 & 95 \\
+			Европий	 $ \mathrm{^{152}Eu} $& 343.172 & 170 \\
+			\hline 
+		\end{tabular} 
+	\end{center}
+	\label{obr}
+\end{table}
+
+Построим график зависимости $ E_{обр} = f(E) $ и профитируем его согласно \eqref{Eobr}:
+
+	\begin{figure}[H]
+	\label{graf_obr}
+	\includegraphics[scale=0.45]{ee.pdf}
+	\caption{Проверка формулы $ R = \dfrac{\mathrm{const}}{E} $}
+\end{figure} 
+
+Результаты фита сведем в таблицу:
+
+\begin{table}[H]
+	\caption{Фит рис. 10 функцией $ y = a \dfrac{x}{1 + \dfrac{x}{255}} + с $}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			& \text{Estimate} & \text{Standard Error} \\
+			\hline
+			a & 1.06274 & 0.0584254 \\
+			c & 7.85222 & 9.68542 \\
+			\hline 
+		\end{tabular} 
+	\end{center}
+	\label{obr_fit}
+\end{table}
+
+Заметим, что на наших графиках в левой части спектра присутствует узкий пик, соответствующий энергии порядка $ E_x \simeq 40 - 100 $ кэВ. Это соответствует характеристическому излучению из свинца, служащего защитой спектрометра от внешнего излучения. 
+
+Пронаблюдав на осциллографе изображение импульсов с ФЭУ, оценим величины $ \tau_0 \simeq 0.4 $ мкс --- характерное время высвечивания для ФЭУ, и постоянную времени $ RC \simeq 3 $ мкс. Это было оценено по передним и задним фронтам импульсов соответственно. 
+	
+%	\section{Вывод }
 	
 \end{document}
