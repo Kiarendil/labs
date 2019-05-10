@@ -10,6 +10,10 @@
 |Квантовая физика|[11](https://github.com/Kiarendil/labs/tree/master/5sem/41)|[2.2+2.3](https://github.com/Kiarendil/labs/tree/master/5sem/22)|[4.1](https://github.com/Kiarendil/labs/tree/master/5sem/41)|[4.2](https://github.com/Kiarendil/labs/tree/master/5sem/42)| [5.1](https://github.com/Kiarendil/labs/tree/master/5sem/51)|[5.5](https://github.com/Kiarendil/labs/tree/master/5sem/55)| [6.1](https://github.com/Kiarendil/labs/tree/master/5sem/61)|[10.4](https://github.com/Kiarendil/labs/tree/master/5sem/104)|
 |Основы современной физики|[6.11.1](https://github.com/Kiarendil/labs/tree/master/6sem/6111)|[6.11.2](https://github.com/Kiarendil/labs/tree/master/6sem/6112)|[6.11.3](https://github.com/Kiarendil/labs/tree/master/6sem/6113)|[6.11.5](https://github.com/Kiarendil/labs/tree/master/6sem/6115)|
 
+## Формат "kiarticle" файлов *LaTeX*
+
+Все файлы расширения *.tex* ссылаются на класс документа "kiarticle". Вы можете узнать о нем подробнее и установить для использования на своей локальной машине в другом GitHub [репозитории по ссылке](https://github.com/Kiarendil/toolkitex).
+
 ## Start.nb
 
 Все графики и их обработка получена с помощью __Wolfram Mathematica__.
